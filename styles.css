@@ -31,16 +31,55 @@ ol {
 li {
     font-size: 24px;
 }
-
-.button_test{
-    background-color: white;
-    border-color: black;
+.button_test {
+    background-color:white;
+    align-items: center;
 }
 .Click_Me{
     background-color: black;
-    background-origin: padding-box;
+    font-size: 40px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+   
 }
 .No_Click_Me{
     background-color: yellow;
+    font-size: 40px;
     color: black;
+    padding: 10px;
+}
+
+.proportioned > img{
+    width: 300px;
+    height: 300px;
+    border-color: white;
+    border-style:groove;
+}
+
+.distorted > img {
+    width: 120px;
+    height: 300px;
+    border-radius: 50%;
+    border-color: yellow;
+    border-style:outset;
+}
+.distorted > #pasta_img {
+    width: inherit;
+    height:350px;
+}
+.odin_recipes {
+    border-top: 0;
+    background-color: rgb(74, 153, 74);
+    color:white;
+}
+.odin_recipes > a{
+    color: white;
+    margin: 10px;
+    padding:10px;
+    border-top: 0;
+
+}
+body {
+    padding-top: 0;
 }
