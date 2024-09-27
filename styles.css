@@ -1,85 +1,163 @@
 * {
     font-family: Verdana, DejaVu San, sans-serif;
-}
-div, p {
-    color: white;
+    line-height: 1.2;
 }
 
-div {
-    background-color: red;
-    font-size: 32px;
-    text-align: center;
-    font-weight: bold;
-}
-p {
-    background-color: green;
-    font-size: 18px;;
-}
-button {
-    background-color: orange;
-    font-size: 18px;
+body {
+    background-color: #6f9b8d;
+    margin: 0%;
 }
 
-ul {
-    color: blue;
-    font-size: 36px;
 
-}
-ol {
-    font-size: 24px;
-}
-li {
-    font-size: 24px;
-}
-.button_test {
-    background-color:white;
-    align-items: center;
-}
-.Click_Me{
-    background-color: black;
-    font-size: 40px;
-    color: white;
-    margin: 10px;
-    padding: 10px;
-   
-}
-.No_Click_Me{
-    background-color: yellow;
-    font-size: 40px;
-    color: black;
-    padding: 10px;
+.recipe_pic > img {
+    border-radius: 50%;
+    height: 10%;
+    width: 10%;
 }
 
+/* img styling and resizing */
 .proportioned > img{
-    width: 300px;
-    height: 300px;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
     border-color: white;
     border-style:groove;
 }
 
 .distorted > img {
-    width: 120px;
-    height: 300px;
+    height: 27%;
     border-radius: 50%;
-    border-color: yellow;
-    border-style:outset;
+    border-color: #11f988;
+    border-style:ridge;
 }
 .distorted > #pasta_img {
     width: inherit;
-    height:350px;
+}
+
+/* img ends here */
+
+/* all div starts here */
+div {
+    text-align: center;
+}
+
+div > h1 {
+    background-color: #629d62;
+    padding: 0%;
+}
+div > img{
+    margin-top: 1%;
+}
+
+
+
+/* all div ends here */
+h2 {
+    padding-left: 0.5%;
+}
+/* div description class  */
+.description {
+    text-align: left;
+}
+.description > h2 {
+    text-align:left;
+    padding-left:0.5%;
+    font-size: 24px;
+}
+.description > p {
+    text-align: justify;
+    color: #f1f5f6;
+    padding-left: .5%;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* div description class ends here */
+
+h3 {
+    padding-left: .5%;
+}
+.descendants-div p {
+    background-color:#f1f5f6;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    align-items: center;
+    padding:0;
+    margin: 0;
+    border-top: 0;
+}
+.descendants-div h1 {
+    padding-top: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* div ends here */
+
+/* unordered list ---- */
+ul {
+    color: #11f9af;
+    font-style: italic;
+    font-weight:200;
+    
+}
+/* unordered list ends here */
+
+
+/* ordered list nest with li and h2 font sized */
+ol, li  {
+    font-size: 24px;
+}
+/* end of ordered list nest with li and h2 font sized */
+
+/* button starts here */
+button {
+    font-size: 35px;
+    border-radius: 10px;
+}
+.button_test {
+    align-items: center;
+}
+.Click_Me{
+    background-color: #828886;
+    color: #f1f5f6;
+   
+}
+.Click_Me:hover {
+    background-color: #11f9af;
+    color: #000000;
+}
+.No_Click_Me {
+    background-color: #11f9af;
+    color: black;
+}
+
+.No_Click_Me:hover {
+    background-color: #828886;
+}
+
+/* button ends here */
+
+
+/* class odin_recipes title and a */
+.odin_recipes > h1 {
+    text-align: left;
+    font-size: 80%;
+    border: 0;
+    margin: 0;
+    padding:0;
 }
 .odin_recipes {
-    border-top: 0;
-    background-color: rgb(74, 153, 74);
-    color:white;
+    font-size: 1.3em;
+    background-color: #629d62;
+    color:#172417;
 }
 .odin_recipes > a{
-    color: white;
-    margin: 10px;
-    padding:10px;
-    border-top: 0;
-
+    background-color: #629d62;
+    text-decoration: none;
+    color: #000000;
 }
-body {
-    padding-top: 0;
+.odin_recipes > a:hover{
+    background-color: #92bb92;
 }
+/* class odin_recipes ends here */
