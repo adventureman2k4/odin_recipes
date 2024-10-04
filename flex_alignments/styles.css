@@ -1,0 +1,21 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background-color: violet;
+    border: 2px solid darkmagenta;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    
+}
+
+.item {
+    background-color: turquoise;
+    border: 2px solid teal;
+    padding: 10%;
+    margin: 5%;
+}
